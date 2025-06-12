@@ -17,5 +17,7 @@ The main feature of this project is to block desired applications on the smartph
 ## Technologies
 
 Languages : Java, XML
+
 IDE : Android Studio
+
 Package management : Gradle 
