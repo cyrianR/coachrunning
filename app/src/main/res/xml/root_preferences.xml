@@ -1,0 +1,73 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+   <!-- <PreferenceCategory app:title="@string/messages_header">
+
+       <EditTextPreference
+           app:key="signature"
+           app:title="@string/signature_title"
+           app:useSimpleSummaryProvider="true" />
+
+       <ListPreference
+           app:defaultValue="reply"
+           app:entries="@array/reply_entries"
+           app:entryValues="@array/reply_values"
+           app:key="reply"
+           app:title="@string/reply_title"
+           app:useSimpleSummaryProvider="true" />
+
+   </PreferenceCategory>
+
+   <PreferenceCategory app:title="@string/sync_header">
+
+       <SwitchPreferenceCompat
+           app:key="sync"
+           app:title="@string/sync_title" />
+
+       <SwitchPreferenceCompat
+           app:dependency="sync"
+           app:key="attachment"
+           app:summaryOff="@string/attachment_summary_off"
+           app:summaryOn="@string/attachment_summary_on"
+           app:title="@string/attachment_title" />
+
+   </PreferenceCategory>-->
+
+   <PreferenceCategory app:title="Informations personnelles">
+
+        <EditTextPreference
+            app:key="length"
+            app:title="Taille (cm)"
+            app:defaultValue="170"
+            app:useSimpleSummaryProvider="true" />
+
+       <EditTextPreference
+           app:key="weight"
+           app:title="Poids"
+           app:defaultValue="60"
+           app:useSimpleSummaryProvider="true" />
+
+       <ListPreference
+           android:defaultValue="male"
+           android:entries="@array/gender"
+           android:entryValues="@array/genderValues"
+           android:key="gender_preference"
+           android:title="Sexe"
+           app:useSimpleSummaryProvider="true"/>
+
+
+   </PreferenceCategory>
+
+   <PreferenceCategory app:title="Difficultées">
+
+
+       <EditTextPreference
+           app:key="difficulty_preference"
+           app:title="Coefficient de difficultée"
+           app:defaultValue="1.0"
+           app:useSimpleSummaryProvider="true" />
+
+   </PreferenceCategory>
+
+</PreferenceScreen>

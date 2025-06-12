@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">CoachRunning</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="item_name_default">Nom de la ligne</string>
+    <string name="title_activity_personnal_settings">Paramètres personnels</string>
+    <string name="title_activity_use_info">Informations</string>
+    <string name="large_text">
+        "Merci d'avoir téléchargé CoachRunning.\n\n"
+
+        "Cette application permet de limiter votre utilisation d'écran tout en vous obligeant à faire du sport.\n"
+        "Un quota d'écran de 1H vous est donné lorsque vous avez suffisamment couru, sinon les applications"
+        "sélectionnées ne seront pas accessibles.\n"
+        "L'effort fournit est un calcul basé sur votre poids, votre vitesse, votre taille, votre sexe à tout instant. "
+        "Ainsi, il est conseillé de rentrer vos informations personnelles dans les paramètres de l'application.\n"
+        "Pour un bon calcul de l'effort il est conseillé d'avoir son portable dans la poche ou accroché sur le bras lors de "
+        "votre séance de sport : course, marche, en extèrieur ou sur tapis roulant.\n"
+        "Demander à un proche de changer le mot de passe et de choisir les applications à bloquer dans le cas où vous n'auriez "
+        "plus de temps d'écran disponible.\n"
+        "Vous pouvez aussi changer la difficultée, c'est-à-dire augmenter ou baisser l'effort à fournir pour atteindre 1H d'écran.\n"
+        "A titre indicatif, un coefficient de difficulté à 1 vous oblige à courir 1H à une allure de 7km/h pour débloquer 1H d'écran. "
+        "Un coefficient de difficulté à 0.17 vous oblige à courir un marathon à une allure de 8km/h pour débloquer 1H d'écran.\n\n"
+
+        "A propos\n\n"
+
+        "Cette application a été développée par Ragot Cyrian en 2022 (classe PSI2 au lycée Kléber) dans le cadre du TIPE en CPGE."
+
+
+
+
+
+    </string>
+    <string name="action_settings">Settings</string>
+</resources>
